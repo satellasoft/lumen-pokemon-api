@@ -4,7 +4,7 @@
 header('Access-Control-Allow-Origin: *');
 
 //Defina os verbos aceitos
-header('Access-Control-Allow-Methods: GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS');
+header('Access-Control-Allow-Methods: GET,PUT,POST,DELETE');
 
 //Defina os cabeçalhos aceitos
 header('Access-Control-Allow-Headers: Content-Type, X-Auth-Token, Origin, Authorization');
